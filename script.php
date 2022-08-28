@@ -39,7 +39,6 @@ else {
     if ($resultPosts and $resultComments) {
         echo "Загружено " . count($sqlPost) . " записей и " . count($sqlComments) . " комментариев";
     }
-
-    //var_dump($sqlComments);
+    mysqli_close($dbConnect);
 }
 
