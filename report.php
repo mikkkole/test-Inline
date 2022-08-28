@@ -38,7 +38,7 @@
         }
       }
     } else {
-      echo 'Ничео не найдено по запросу: ' . $searchString;
+      echo 'Ничего не найдено по запросу: ' . $searchString;
     }
 
 
